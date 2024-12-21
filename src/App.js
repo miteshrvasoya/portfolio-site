@@ -6,6 +6,7 @@ import GitHubIcon from "./assets/GitHub.png";
 import LinkedInIcon from "./assets/LinkedIn.png";
 import TwitterIcon from "./assets/Twitter.png";
 import ShopCartImg from "./assets/ShopCart.png"
+import ArchPortFolioImg from "./assets/arch_portfolio.png"
 import Footer from "./components/Footer";
 
 
@@ -62,6 +63,17 @@ function App() {
                     <div className="card">
                         <img src={ShopCartImg} alt="" className="cardBgImg"/>
                         <div className="titleDiv">
+                            <p className="title">tracScore</p>
+                        </div>
+                        <div className="contentDiv">
+                            <p className="content">
+                                TracScore is a feature-rich cricket score tracking platform built using Angular, Node.js, PostgreSQL, and Redis, offering real-time ball-by-ball commentary, live scorecards, player performance analytics, and tournament management features such as team selection, customizable points systems, and dynamic score tracking, all while providing a seamless user experience through secure authentication and optimized data caching.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <img src={ShopCartImg} alt="" className="cardBgImg"/>
+                        <div className="titleDiv">
                             <p className="title">ShopCart</p>
                         </div>
                         <div className="contentDiv">
@@ -82,13 +94,14 @@ function App() {
                         </div>
                     </div>
                     <div className="card">
-                        <img src={ShopCartImg} alt="" className="cardBgImg"/>
+                        <img src={ArchPortFolioImg} alt="" className="cardBgImg"/>
                         <div className="titleDiv">
-                            <p className="title">UniqArch</p>
+                            <p className="title">Architecture Portfolio</p>
                         </div>
                         <div className="contentDiv">
                             <p className="content">
-                                UniqArch is a sleek and modern portfolio website specifically designed for architects to
+                                Architecture Portfolio is a sleek and modern portfolio website specifically designed for
+                                architects to
                                 showcase their projects and expertise. The website features an interactive landing page
                                 that
                                 captivates visitors with stunning visuals and provides an engaging introduction to the
@@ -98,26 +111,7 @@ function App() {
                             </p>
                         </div>
                     </div>
-                    <div className="card">
-                        <img src={ShopCartImg} alt="" className="cardBgImg"/>
-                        <div className="titleDiv">
-                            <p className="title">IncomeFlow</p>
-                        </div>
-                        <div className="contentDiv">
-                            <p className="content">
-                                IncomeFlow is a user-friendly personal income management website designed to streamline
-                                financial tracking. With a secure login and register page, users can create personalized
-                                accounts to track their income. The website enables users to easily add income entries
-                                and
-                                provides a visual cashflow chart to analyze their financial trends. User authentication
-                                ensures data security, protecting sensitive information. IncomeFlow empowers individuals
-                                to
-                                effectively manage their income, make informed financial decisions, and gain better
-                                control
-                                over their financial well-being.
-                            </p>
-                        </div>
-                    </div>
+
                 </div>
                 <div className="contactPageTitle">
                     <p className="title">

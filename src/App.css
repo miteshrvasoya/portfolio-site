@@ -246,8 +246,8 @@
 }
 
 .first-div > .scrollImgDiv {
-    width: 90px;
-    height: 90px;
+    width: 60px;
+    height: 60px;
     position: absolute;
     bottom: 20px;
     left: calc(50% - 45px);
