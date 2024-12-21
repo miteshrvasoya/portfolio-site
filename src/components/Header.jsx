@@ -11,11 +11,11 @@ function Header() {
                     <li><a href="#projectsPageId">Projects</a></li>
                     <li><a href="#thirdDivId">About</a></li>
                 </ul>
-                <ul className="menus2">
-                    <li>
-                        <a href="#contactPageId">Contact</a>
-                    </li>
-                </ul>
+                {/*<ul className="menus2">*/}
+                {/*    <li>*/}
+                {/*        <a href="#contactPageId">Contact</a>*/}
+                {/*    </li>*/}
+                {/*</ul>*/}
 
             </div>
         </div>
